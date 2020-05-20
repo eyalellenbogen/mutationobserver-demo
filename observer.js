@@ -4,5 +4,6 @@ function setupObserver(nodeToWatch) {
   });
   observer.observe(nodeToWatch, {
     childList: true,
+    subtree: true,
   });
 }
